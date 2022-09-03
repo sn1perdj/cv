@@ -1,0 +1,76 @@
+/************************************* MAIN TAGS ****************************************************/
+
+body {
+    background-color: #EAF6F6;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 10%;
+}
+
+img {
+    height: 250px;
+}
+
+h1 {
+    color: #66bfbf;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(152, 152, 165);
+}
+
+h3 {
+    color: #66bfbf;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: relative;
+    width: 431px;
+    height: 150px;
+    border: 1px solid rgba(59,58,58,0.46);
+    border-radius: 20px;
+    box-shadow: -10px 5px 10px green;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+/************************************* Individual Class & Ids ****************************************************/
+
+.div:hover {
+    top: -50px;
+}
+
+.bio {
+    color: rgb(6, 6, 39);
+    width: 376px;
+    align-items: center;
+}
+
+.hobbies {
+    text-align: left;
+    width: 268px;
+    height: 50px;
+}
+
+.skills {
+    align-items: left;
+    justify-content: left;
+}
+
+.dates {
+    text-align: left;
+    width: 400px;
+}
+
+.contactme {
+    font-size: 30px;
+}
